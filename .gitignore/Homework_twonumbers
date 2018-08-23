@@ -1,0 +1,35 @@
+//Autor: Bruno Portilla
+//Fecha: 23/08/18
+
+#include <iostream>
+
+int main() {
+    //declaracion de variables
+    //aqui abajo estoy asignandolas variables para guardar los numero que me dara el usuario
+    int num1;
+    int num2;
+    int suma;
+    int resta;
+    int multiplicacion;
+    int division;
+
+    //muestro la solicitud de dos numeros que seran parte de las operaciones.
+    printf("Dame el primer numero: ");
+    scanf("%i", &num1);
+    printf("Dame el segundo numero: ");
+    scanf("%i", &num2);
+
+    //aqui se hace las operaciones.
+    suma= num1 + num2;
+    resta= num1 - num2;
+    multiplicacion= num1 * num2;
+    division= num1/num2;
+
+    //Se muestra las variables osease los resultados.
+    printf("Los resultados son los siguientes.");
+    printf("la suma final es: %i\n", suma);
+    printf("la resta final es: %i\n", resta);
+    printf("la multiplicacion de los dos numeros es: %i\n", multiplicacion);
+    printf("La division de los dos numeros es: %i\n", division);
+
+}
